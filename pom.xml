@@ -25,6 +25,7 @@
 	<modules>
 		<module>CrudProducts</module>
 		<module>CrudOrders</module>
+		<module>CrudSuppliers</module>
 	</modules>
 
 	<dependencyManagement>

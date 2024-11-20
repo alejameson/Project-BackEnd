@@ -1,7 +1,7 @@
 package com.example.CrudProducts.services;
 
-import com.example.CrudProducts.model.Product;
 import com.example.CrudProducts.repositories.ProductRepository;
+import com.example.CrudProducts.model.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,9 +1,9 @@
 package com.example.CrudProducts.service;
 
 
-import com.example.CrudProducts.model.Product;
 import com.example.CrudProducts.repositories.ProductRepository;
 import com.example.CrudProducts.services.ProductService;
+import com.example.CrudProducts.model.Product;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.MockitoAnnotations;

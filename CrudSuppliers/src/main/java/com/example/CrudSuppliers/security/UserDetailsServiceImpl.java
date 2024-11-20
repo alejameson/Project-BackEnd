@@ -1,4 +1,4 @@
-package com.example.CrudOrders.security;
+package com.example.CrudSuppliers.security;
 
 import java.util.List;
 import java.util.Set;

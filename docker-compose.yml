@@ -27,3 +27,17 @@ services:
     expose:
       - 3000
     command: -p 3000
+
+  db-suppliers:
+    container_name: db-suppliers
+    image: postgres:15.2
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ms_suppliers
+      POSTGRES_USER: java
+      POSTGRES_PASSWORD: java123
+    ports:
+      - 3001:3001
+    expose:
+      - 3001
+    command: -p 3001

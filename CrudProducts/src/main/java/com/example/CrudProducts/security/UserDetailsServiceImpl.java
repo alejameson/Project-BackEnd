@@ -36,7 +36,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         var password = "$2a$10$Mh2ZW.qppqLbeVODs.UwYO5y3209npPhs8jEIJELhUQw/y7OoAwTO"; // Contraseña encriptada del usuario.
 
         Usuario LunaUser = new Usuario(
-                "LunaUser",
+                "AleUser",
                 password,
                 Set.of("USER") // Crea un usuario de ejemplo.
         );
