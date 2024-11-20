@@ -56,9 +56,9 @@ public class WebSecurityConfig {
     }
 
     /********** METODO CIFRAR UNA CONTRASEÑA ESPECÍFICA **********/
-   // public static void main (String[] args) {
-   //     System.out.println("pass: " + new BCryptPasswordEncoder().encode("123"));
-    //}
+   /*public static void main (String[] args) {
+       System.out.println("pass: " + new BCryptPasswordEncoder().encode("alito"));
+  }*/
 
 }
 

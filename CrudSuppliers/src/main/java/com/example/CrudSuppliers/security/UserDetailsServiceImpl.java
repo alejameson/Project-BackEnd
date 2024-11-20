@@ -33,7 +33,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     /********** BÚSQUEDA DE USUARIO POR ID **********/
     public static Usuario getById(String username) {
 
-        var password = "$2a$10$Mh2ZW.qppqLbeVODs.UwYO5y3209npPhs8jEIJELhUQw/y7OoAwTO"; // Contraseña encriptada del usuario.
+        var password = "$2a$10$WUvDv71b5jb1bQxuw5x1wuuf6CL7GKZkIJpF.gZbjWD3rKVqnySBe"; // Contraseña encriptada del usuario.
 
         Usuario LunaUser = new Usuario(
                 "AleUser",
